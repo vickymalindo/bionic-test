@@ -1,0 +1,14 @@
+Cypress adalah sebuah Javascript End-to-end Framework atau bisa diartikan seperti alat yang dapat digunakan dalam automation test atau pengujian otomatis.
+
+Kubernetes adalah platform open source untuk mengelola kumpulan kontainer dalam suatu cluster server. Kontainer sendiri adalah environment dengan sumber daya, CPU, dan sistem file untuk satu aplikasi. Jadi, aplikasi tersebut akan memiliki sumber daya sendiri. Keuntungannya, aplikasi jadi tidak mudah mengalami downtime.
+
+orm atau object relational mapping adalah teknik yang merubah suatu table menjadi sebuah object yang nantinya mudah untuk digunakan. Object yang dibuat memiliki property yang sama dengan field — field yang ada pada table tersebut.
+ORM memungkinkan kita melakukan query dan memanipulasi data di database menggunakan object oriented.
+
+class adalah tempat kumpulan kode yang biasanya digunakan pada bahasa pemrograman yang bersifat structural programming. class biasanya memiliki konsep oop (object oriented programming).
+
+function adalah tempat kumpulan kode yang biasanya digunakan pada bahasa pemrograman yang bersifat fuctional programming.
+
+devops merupakan kata yang terdiri dari 2 kata yaitu development and operation. Dari kata tersebut memiliki arti proses pengabungan suatu sistem atau aplikasi dengan operasional.
+
+docker adalah sebuah layanan yang memberikan suatu sistem/aplikasi dikemas dengan terisolasi (container).

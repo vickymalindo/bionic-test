@@ -1,0 +1,53 @@
+Jawaban no 1
+function generatePattern(n) {
+    let res = ''
+    let startStar = 2
+  for(let i = 1; i <= n; i++){
+      let countStar = 0
+      for(let j = 1; j <= n+3; j++){
+          if(j > 1 && j < n+3){
+              if(startStar === j || (startStar + 1) === j){
+                res += '*'
+              } else {
+                  res += j
+              }
+          } else {
+              res += j
+          }
+      }
+      startStar += 1
+      res += '\n'
+  }
+  return res
+}
+
+console.log(generatePattern(5))
+console.log(generatePattern(4))
+
+
+Jawaban no 2
+function selisih(harga) {
+  if (harga.length < 2) {
+    return null; 
+  }
+
+  let minVal = harga[0];
+  let maxSelisih = harga[1] - harga[0];
+
+  for (let i = 1; i < harga.length; i++) {
+    const currentHarga = harga[i];
+    const selisihSementara = currentHarga - minVal;
+
+    if (selisihSementara > maxSelisih) {
+      maxSelisih = selisihSementara;
+    }
+
+    if (currentHarga < minVal) {
+      minVal = currentHarga;
+    }
+  }
+
+  return maxSelisih
+}
+
+console.log(selisih([10, 7, 5, 8, 11, 9, 1]));
